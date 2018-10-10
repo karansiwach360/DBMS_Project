@@ -14,8 +14,4 @@ create table Resources(ResourceID INT NOT NULL AUTO_INCREMENT, Name VARCHAR(100)
 
 create table consists_of(ResourceID INT NOT NULL, ClubID INT NOT NULL, PRIMARY KEY(ResourceID,ClubID), FOREIGN KEY(ResourceID) references Resources(ResourceID), FOREIGN KEY(ClubID) references Club(ClubID));
 
-
-
-
-
 create table participate(id INT NOT NULL,EventID INT NOT NULL,PRIMARY KEY(id,EventID),FOREIGN KEY(id) references auth_user(id),FOREIGN KEY(EventID) references Event(EventID));
