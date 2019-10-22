@@ -1,2 +1,2 @@
 # DBMS_Project
-Website for Film and Media Council, IIT (BHU) Varanasi
+We have developed a website for Film and Media Council, IIT (BHU) Varanasi.
