@@ -60,6 +60,8 @@ def signup(request):
 		errors=["Signup Successful"]
 		return render(request,'error.html',{"errors":errors})
 	return render(request,'signup.html')
+
+# Logs out a user from session
 def logged_out(request):
 	return render(request,'logged_out.html')
 
