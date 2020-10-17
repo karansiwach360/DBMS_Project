@@ -1,3 +1,4 @@
+# Club properties
 class clubView:
 	def __init__(self,li):
 		self.id=li[0]
@@ -12,6 +13,8 @@ class postholderView:
 		self.branch=li[4]
 		self.batch=li[5]
 		self.club=li[6]
+
+# Member properties
 class memberView:
 	def __init__(self,li):
 		self.id=li[0]
@@ -20,6 +23,8 @@ class memberView:
 		self.branch=li[3]
 		self.batch=li[4]
 		self.club=li[5]
+		
+# Alumni properties
 class alumniView:
 	def __init__(self,li):
 		self.id=li[0]
